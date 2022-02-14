@@ -512,7 +512,8 @@ class Config {
 			'color_picker',
 			'group',
 			'repeater',
-			'flexible_content'
+			'flexible_content',
+			'font-awesome'
 		];
 
 		/**
@@ -562,6 +563,7 @@ class Config {
 			case 'oembed':
 			case 'password':
 			case 'wysiwyg':
+			case 'font-awesome':
 			case 'url':
 				// Even though Selects and Radios in ACF can _technically_ be an integer
 				// we're choosing to always cast as a string because with
